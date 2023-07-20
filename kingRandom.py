@@ -129,7 +129,7 @@ $$$$$$$/         __   $$ |
 \033[1;91m[*] VERSION   > \033[1;32m0.2
 \033[1;91m[*] WHATSAPP  >\033[1;32m+88013********
 \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes
-\033[1;32m------------------------------------------------------"""  )
+\033[1;32m------------------------------------------------------"""
 
 def cek_apk(session,coki):
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
